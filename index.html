@@ -1,0 +1,957 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Javascript Assignment | Abanoub Ed</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/index-style.css" />
+</head>
+
+<body>
+    <section class="container">
+        <div class=" text-head text-center ">
+            <h1>Javascript Assignment 1</h1>
+        </div>
+        <!------------ START ROW NUMBER 1-------------->
+        <div class="row py-2 align-content-around justify-content-around m-auto">
+            <!--------- START EXERSICE-1---- -->
+            <div class=" col-md-3 m-auto ">
+                <button type="button" class="btn btn-bg m-3" data-toggle="modal" data-target="#EXERCISE1">
+                    EXERCISE 1
+                </button>
+
+                <div class="modal fade" id="EXERCISE1" tabindex="-1" role="dialog"
+                    aria-labelledby="EXERCISE1" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="row text-light bg-dark">
+                                <h2>EXERCISE 1</h2>
+                            </div>
+                            <div class="modal-header">
+                                <h5 class="modal-title font-weight-bold" id="exampleModalCenterTitle">Write a program
+                                    that allow to user
+                                    enter number then
+                                    print it </h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+
+                            <div class="modal-body">
+                                <div class="form-group">
+                                    <label> ENTER ANY NUMBER PLEASE..</label>
+                                    <input id="enterNumber" class="form-control border-primary">
+                                </div>
+                                <div class="mydiv">
+                                    <h1 id="theResult"></h1>
+                                </div>
+                                <br>
+                                <button onclick="showNumber()" class="btn btn-primary btn-sm hoverbtn">
+                                    Show Result
+                                </button>
+                            </div>
+
+                            <div class="modal-footer">
+                                <input type="reset" class="btn " value="Reset">
+                                <button type="button" class="btn " data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--------- END EXERSICE-1---- -->
+
+            <!--------- START EXERSICE-2---- -->
+            <div class=" col-md-3 m-auto ">
+                <button type="button" class="btn btn-bg m-3" data-toggle="modal" data-target="#EXERCISE2">
+                    EXERCISE 2
+                </button>
+
+                <div class="modal fade" id="EXERCISE2" tabindex="-1" role="dialog"
+                    aria-labelledby="EXERCISE2" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="row text-light bg-dark">
+                                <h2>EXERCISE 2</h2>
+                            </div>
+                            <div class="modal-header">
+                                <h5 class="modal-title font-weight-bold" id="exampleModalCenterTitle">
+                                    Write a program that take number from user then print yes if that number can divide
+                                    by 3 and 4 otherwise print no.</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+
+                            <div class="modal-body">
+                                <div class="form-group">
+                                    <label> ENTER ANY NUMBER PLEASE...</label>
+                                    <input id="enterExersice2" class="form-control border-primary">
+                                </div>
+                                <div class="mydiv">
+                                    <h1 id="theResultExercise2"></h1>
+                                </div>
+                                <br>
+                                <button onclick="pressExercise2()" class="btn btn-primary btn-sm hoverbtn">
+                                    Show Result
+                                </button>
+                            </div>
+
+                            <div class="modal-footer">
+                                <input type="reset" class="btn " value="Reset">
+                                <button type="button" class="btn " data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--------- END EXERSICE-2---- -->
+
+            <!--------- START EXERSICE-3---- -->
+            <div class=" col-md-3 m-auto ">
+                <button type="button" class="btn btn-bg m-3" data-toggle="modal" data-target="#EXERCISE3">
+                    EXERCISE 3
+                </button>
+
+                <div class="modal fade" id="EXERCISE3" tabindex="-1" role="dialog"
+                    aria-labelledby="EXERCISE3" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="row text-light bg-dark">
+                                <h2>EXERCISE 3</h2>
+                            </div>
+                            <div class="modal-header">
+                                <h5 class="modal-title font-weight-bold" id="exampleModalCenterTitle">
+                                    Write a program that allows the user to insert 2 integers then print the max</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+
+                            <div class="modal-body">
+                                <div class="form-group">
+                                    <label> ENTER ANY NUMBER PLEASE...</label>
+                                    <input id="enter1Three" class="form-control m-1 border-primary">
+                                    <input id="enter2Three" class="form-control m-1 border-primary">
+
+                                </div>
+                                <div class="mydiv">
+                                    <h1 id="resultThree"></h1>
+                                </div>
+                                <br>
+                                <button onclick="pressThree()" class="btn btn-primary btn-sm hoverbtn">
+                                    Show Result
+                                </button>
+                            </div>
+
+                            <div class="modal-footer">
+                                <input type="reset" class="btn " value="Reset">
+                                <button type="button" class="btn " data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--------- END EXERSICE-3---- -->
+
+            <!--------- START EXERSICE-4---- -->
+            <div class=" col-md-3 m-auto ">
+                <button type="button" class="btn btn-bg m-3" data-toggle="modal" data-target="#EXERCISE4">
+                    EXERCISE 4
+                </button>
+
+                <div class="modal fade" id="EXERCISE4" tabindex="-1" role="dialog"
+                    aria-labelledby="EXERCISE4" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="row text-light bg-dark">
+                                <h2>EXERCISE 4 </h2>
+                            </div>
+                            <div class="modal-header">
+                                <h5 class="modal-title font-weight-bold" id="exampleModalCenterTitle">
+                                    Write a program that allows the user to insert an integer then print negative if it
+                                    is negative number otherwise print positive.</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+
+                            <div class="modal-body">
+                                <div class="form-group">
+                                    <label> ENTER ANY NUMBER PLEASE...</label>
+                                    <input id="enterExercise4" class="form-control border-primary">
+                                </div>
+                                <div class="mydiv">
+                                    <h1 id="theResultExercise4"></h1>
+                                </div>
+                                <br>
+                                <button onclick="pressExercise4()" class="btn btn-primary btn-sm hoverbtn">
+                                    Show Result
+                                </button>
+                            </div>
+
+                            <div class="modal-footer">
+                                <input type="reset" class="btn " value="Reset">
+                                <button type="button" class="btn " data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--------- END EXERSICE-4---- -->
+        </div>
+        <!------------ END ROW NUMBER 1-------------->
+
+        <!------------ START ROW NUMBER 2-------------->
+        <div class="row py-2 align-content-around justify-content-around m-auto">
+            <!--------- START EXERSICE-5---- -->
+            <div class=" col-md-3 m-auto ">
+                <button type="button" class="btn btn-bg m-3" data-toggle="modal" data-target="#EXERCISE5">
+                    EXERCISE 5
+                </button>
+
+                <div class="modal fade" id="EXERCISE5" tabindex="-1" role="dialog"
+                    aria-labelledby="EXERCISE5" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="row text-light bg-dark">
+                                <h2>EXERCISE 5 </h2>
+                            </div>
+                            <div class="modal-header">
+                                <h5 class="modal-title font-weight-bold" id="exampleModalCenterTitle">Write a program
+                                    that take 3 integer from user then print the max element and the min element. </h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+
+                            <div class="modal-body">
+                                <div class="form-group">
+                                    <label> ENTER ANY NUMBER PLEASE..</label>
+                                    <input id="enter1Exersice5" class="form-control m-1 border-primary">
+                                    <input id="enter2Exersice5" class="form-control m-1 border-primary">
+                                    <input id="enter3Exersice5" class="form-control m-1 border-primary">
+
+                                </div>
+                                <div class="mydiv">
+                                    <h1 class="text-warning" id="maxExercise5"></h1>
+                                    <h1 class="text-info" id="minExercise5"></h1>
+
+                                </div>
+                                <br>
+                                <button onclick="pressExercise5()" class="btn btn-primary btn-sm hoverbtn">
+                                    Show Result
+                                </button>
+                            </div>
+
+                            <div class="modal-footer">
+                                <input type="reset" class="btn " value="Reset">
+                                <button type="button" class="btn " data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--------- END EXERSICE-5---- -->
+            <!--------- START EXERSICE-6---- -->
+            <div class=" col-md-3 m-auto ">
+                <button type="button" class="btn btn-bg m-3" data-toggle="modal" data-target="#EXERCISE6">
+                    EXERCISE 6
+                </button>
+
+                <div class="modal fade" id="EXERCISE6" tabindex="-1" role="dialog"
+                    aria-labelledby="EXERCISE6" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="row text-light bg-dark">
+                                <h2>EXERCISE 6</h2>
+                            </div>
+                            <div class="modal-header">
+                                <h5 class="modal-title font-weight-bold" id="exampleModalCenterTitle">
+                                    Write a program that allows the user to insert integer number then Even or Odd .
+                                </h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+
+                            <div class="modal-body">
+                                <div class="form-group">
+                                    <label> ENTER ANY NUMBER PLEASE...</label>
+                                    <input id="enterExersice6" class="form-control border-primary">
+                                </div>
+                                <div class="mydiv">
+                                    <h1 id="theResultExercise6"></h1>
+                                </div>
+                                <br>
+                                <button onclick="pressExercise6()" class="btn btn-primary btn-sm hoverbtn">
+                                    Show Result
+                                </button>
+                            </div>
+
+                            <div class="modal-footer">
+                                <input type="reset" class="btn " value="Reset">
+                                <button type="button" class="btn " data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--------- END EXERSICE-6---- -->
+            <!--------- START EXERSICE-7---- -->
+            <div class=" col-md-3 m-auto ">
+                <button type="button" class="btn btn-bg m-3" data-toggle="modal" data-target="#EXERCISE7">
+                    EXERCISE 7
+                </button>
+
+                <div class="modal fade" id="EXERCISE7" tabindex="-1" role="dialog"
+                    aria-labelledby="EXERCISE7" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="row text-light bg-dark">
+                                <h2>EXERCISE 7</h2>
+                            </div>
+                            <div class="modal-header">
+                                <h5 class="modal-title font-weight-bold" id="exampleModalCenterTitle">
+                                    Write a program that take character from user then if it is vowel chars (a,e,I,o,u)
+                                    then print vowel otherwise print consonant. </h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+
+                            <div class="modal-body">
+                                <div class="form-group">
+                                    <label> ENTER ANY NUMBER PLEASE...</label>
+                                    <input id="enterExercise7" class="form-control border-primary">
+                                </div>
+                                <div class="mydiv">
+                                    <h1 id="theResultExercise7"></h1>
+                                </div>
+                                <br>
+                                <button onclick="pressExercise7()" class="btn btn-primary btn-sm hoverbtn">
+                                    Show Result
+                                </button>
+                            </div>
+
+                            <div class="modal-footer">
+                                <input type="reset" class="btn " value="Reset">
+                                <button type="button" class="btn " data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--------- END EXERSICE-7---- -->
+            <!--------- START EXERSICE-8---- -->
+            <div class=" col-md-3 m-auto ">
+                <button type="button" class="btn btn-bg m-3" data-toggle="modal" data-target="#EXERCISE8">
+                    EXERCISE 8
+                </button>
+
+                <div class="modal fade" id="EXERCISE8" tabindex="-1" role="dialog"
+                    aria-labelledby="EXERCISE8" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="row text-light bg-dark">
+                                <h2>EXERCISE 8 </h2>
+                            </div>
+                            <div class="modal-header">
+                                <h5 class="modal-title font-weight-bold" id="exampleModalCenterTitle">
+                                    Write a program that allows user to insert integer then print all numbers between 1
+                                    to that’s number.</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+
+                            <div class="modal-body">
+                                <div class="form-group">
+                                    <label> ENTER ANY NUMBER PLEASE...</label>
+                                    <input id="enterEight" class="form-control border-primary">
+                                </div>
+                                <div class="mydiv">
+                                    <h1 id="resultEight"></h1>
+                                </div>
+                                <br>
+                                <button onclick="pressEight()" class="btn btn-primary btn-sm hoverbtn">
+                                    Show Result
+                                </button>
+                            </div>
+
+                            <div class="modal-footer">
+                                <input type="reset" class="btn " value="Reset">
+                                <button type="button" class="btn " data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--------- END EXERSICE-8---- -->
+        </div>
+        <!------------ END ROW NUMBER 2-------------->
+
+        <!------------ START ROW NUMBER 3-------------->
+        <div class="row py-2 align-content-around justify-content-around m-auto">
+            <!--------- START EXERSICE-9---- -->
+            <div class=" col-md-3 m-auto ">
+                <button type="button" class="btn btn-bg m-3" data-toggle="modal" data-target="#EXERCISE9">
+                    EXERCISE 9
+                </button>
+
+                <div class="modal fade" id="EXERCISE9" tabindex="-1" role="dialog"
+                    aria-labelledby="EXERCISE9" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="row text-light bg-dark">
+                                <h2>EXERCISE 9 </h2>
+                            </div>
+                            <div class="modal-header">
+                                <h5 class="modal-title font-weight-bold" id="exampleModalCenterTitle">Write a program
+                                    Write a program that allows user to insert integer then print a multiplication table
+                                    up to 12. </h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+
+                            <div class="modal-body">
+                                <div class="form-group">
+                                    <label> ENTER ANY NUMBER PLEASE..</label>
+                                    <input id="enterNine" class="form-control border-primary">
+                                </div>
+                                <div class="mydiv">
+                                    <h1 id="resultNine"></h1>
+                                </div>
+                                <br>
+                                <button onclick="pressNine()" class="btn btn-primary btn-sm hoverbtn">
+                                    Show Result
+                                </button>
+                            </div>
+                            
+                            <div class="modal-footer">
+                                <input type="reset" class="btn " value="Reset">
+                                <button type="button" class="btn " data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--------- END EXERSICE-9---- -->
+            <!--------- START EXERSICE-10---- -->
+            <div class=" col-md-3 m-auto ">
+                <button type="button" class="btn btn-bg m-3" data-toggle="modal" data-target="#EXERCISE10">
+                    EXERCISE 10
+                </button>
+
+                <div class="modal fade" id="EXERCISE10" tabindex="-1" role="dialog"
+                    aria-labelledby="EXERCISE10" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="row text-light bg-dark">
+                                <h2>EXERCISE 10</h2>
+                            </div>
+                            <div class="modal-header">
+                                <h5 class="modal-title font-weight-bold" id="exampleModalCenterTitle">
+                                    Write a program that allows to user to insert number then print all even numbers between 1 to this number .
+                                </h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+
+                            <div class="modal-body">
+                                <div class="form-group">
+                                    <label> ENTER ANY NUMBER PLEASE...</label>
+                                    <input id="enterTen" class="form-control border-primary">
+                                </div>
+                                <div class="mydiv">
+                                    <h1 id="resultTen"></h1>
+                                </div>
+                                <br>
+                                <button onclick="pressTen()" class="btn btn-primary btn-sm hoverbtn">
+                                    Show Result
+                                </button>
+                            </div>
+
+                            <div class="modal-footer">
+                                <input type="reset" class="btn " onclick="reset()" value="Reset">
+                                <button type="button" class="btn " data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--------- END EXERSICE-10---- -->
+            <!--------- START EXERSICE-11---- -->
+            <div class=" col-md-3 m-auto ">
+                <button type="button" class="btn btn-bg m-3" data-toggle="modal" data-target="#EXERCISE11">
+                    EXERCISE 11
+                </button>
+
+                <div class="modal fade" id="EXERCISE11" tabindex="-1" role="dialog"
+                    aria-labelledby="EXERCISE11" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="row text-light bg-dark">
+                                <h2>EXERCISE 11</h2>
+                            </div>
+                            <div class="modal-header">
+                                <h5 class="modal-title font-weight-bold" id="EXERCISE11">
+                                    Write a program that take two integers then print the power. </h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+
+                            <div class="modal-body">
+                                <div class="form-group">
+                                    <label> ENTER ANY NUMBER PLEASE...</label>
+                                    <input id="enter1Eleven" class="form-control m-1 border-primary">
+                                    <label>ENTER NUMBER OF POWER </label>
+                                    <input id="enter2Eleven" class="border-warning form-control" style="width: 4rem !important;">
+
+                                </div>
+                                <div class="mydiv">
+                                    <h1 id="resultEleven"></h1>
+                                </div>
+                                <br>
+                                <button id="pressEleven" onclick="pressEleven()" class="btn btn-primary btn-sm hoverbtn">
+                                    Show Result
+                                </button>
+                            </div>
+
+                            <div class="modal-footer">
+                                <input type="reset" class="btn" id="resetPow" onclick="reset()" value="Reset">
+                                <button type="button" class="btn " data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--------- END EXERSICE-11---- -->
+            <!--------- START EXERSICE-12---- -->
+            <div class=" col-md-3 m-auto ">
+                <button type="button" class="btn btn-bg m-3" data-toggle="modal" data-target="#EXERCISE8">
+                    EXERCISE 8
+                </button>
+
+                <div class="modal fade" id="EXERCISE8" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="row text-light bg-dark">
+                                <h2>EXERCISE 8 </h2>
+                            </div>
+                            <div class="modal-header">
+                                <h5 class="modal-title font-weight-bold" id="exampleModalCenterTitle">
+                                    Write a program that allows user to insert integer then print all numbers between 1
+                                    to that’s number.</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+
+                            <div class="modal-body">
+                                <div class="form-group">
+                                    <label> ENTER ANY NUMBER PLEASE...</label>
+                                    <input id="enterExercise8" class="form-control border-primary">
+                                </div>
+                                <div>
+                                    <h1 id="theResultExercise8"></h1>
+                                </div>
+                                <br>
+                                <button onclick="pressExercise8()" class="btn btn-primary btn-sm hoverbtn">
+                                    Show Result
+                                </button>
+                            </div>
+
+                            <div class="modal-footer">
+                                <input type="reset" class="btn " value="Reset">
+                                <button type="button" class="btn " data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--------- END EXERSICE-8---- -->
+        </div>
+        <!------------ END ROW NUMBER 3-------------->
+
+        <!------------ START ROW NUMBER 4-------------->
+        <div class="row py-2 align-content-around justify-content-around m-auto">
+            <!--------- START EXERSICE-5---- -->
+            <div class=" col-md-3 m-auto ">
+                <button type="button" class="btn btn-bg m-3" data-toggle="modal" data-target="#EXERCISE5">
+                    EXERCISE 5
+                </button>
+
+                <div class="modal fade" id="EXERCISE5" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="row text-light bg-dark">
+                                <h2>EXERCISE 5 </h2>
+                            </div>
+                            <div class="modal-header">
+                                <h5 class="modal-title font-weight-bold" id="exampleModalCenterTitle">Write a program
+                                    that take 3 integer from user then print the max element and the min element. </h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+
+                            <div class="modal-body">
+                                <div class="form-group">
+                                    <label> ENTER ANY NUMBER PLEASE..</label>
+                                    <input id="enterExersice5" class="form-control border-primary">
+                                </div>
+                                <div>
+                                    <h1 id="theResultExercise5"></h1>
+                                </div>
+                                <br>
+                                <button onclick="pressExercise5()" class="btn btn-primary btn-sm hoverbtn">
+                                    Show Result
+                                </button>
+                            </div>
+
+                            <div class="modal-footer">
+                                <input type="reset" class="btn " value="Reset">
+                                <button type="button" class="btn " data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--------- END EXERSICE-5---- -->
+            <!--------- START EXERSICE-6---- -->
+            <div class=" col-md-3 m-auto ">
+                <button type="button" class="btn btn-bg m-3" data-toggle="modal" data-target="#EXERCISE6">
+                    EXERCISE 6
+                </button>
+
+                <div class="modal fade" id="EXERCISE6" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="row text-light bg-dark">
+                                <h2>EXERCISE 6</h2>
+                            </div>
+                            <div class="modal-header">
+                                <h5 class="modal-title font-weight-bold" id="exampleModalCenterTitle">
+                                    Write a program that allows the user to insert integer number then Even or Odd .
+                                </h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+
+                            <div class="modal-body">
+                                <div class="form-group">
+                                    <label> ENTER ANY NUMBER PLEASE...</label>
+                                    <input id="enterExersice6" class="form-control border-primary">
+                                </div>
+                                <div>
+                                    <h1 id="theResultExercise6"></h1>
+                                </div>
+                                <br>
+                                <button onclick="pressExercise6()" class="btn btn-primary btn-sm hoverbtn">
+                                    Show Result
+                                </button>
+                            </div>
+
+                            <div class="modal-footer">
+                                <input type="reset" class="btn " value="Reset">
+                                <button type="button" class="btn " data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--------- END EXERSICE-6---- -->
+            <!--------- START EXERSICE-7---- -->
+            <div class=" col-md-3 m-auto ">
+                <button type="button" class="btn btn-bg m-3" data-toggle="modal" data-target="#EXERCISE7">
+                    EXERCISE 7
+                </button>
+
+                <div class="modal fade" id="EXERCISE7" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="row text-light bg-dark">
+                                <h2>EXERCISE 7</h2>
+                            </div>
+                            <div class="modal-header">
+                                <h5 class="modal-title font-weight-bold" id="exampleModalCenterTitle">
+                                    Write a program that take character from user then if it is vowel chars (a,e,I,o,u)
+                                    then print vowel otherwise print consonant. </h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+
+                            <div class="modal-body">
+                                <div class="form-group">
+                                    <label> ENTER ANY NUMBER PLEASE...</label>
+                                    <input id="enterExercise7" class="form-control border-primary">
+                                </div>
+                                <div>
+                                    <h1 id="theResultExercise7"></h1>
+                                </div>
+                                <br>
+                                <button onclick="pressExercise7()" class="btn btn-primary btn-sm hoverbtn">
+                                    Show Result
+                                </button>
+                            </div>
+
+                            <div class="modal-footer">
+                                <input type="reset" class="btn " value="Reset">
+                                <button type="button" class="btn " data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--------- END EXERSICE-7---- -->
+            <!--------- START EXERSICE-8---- -->
+            <div class=" col-md-3 m-auto ">
+                <button type="button" class="btn btn-bg m-3" data-toggle="modal" data-target="#EXERCISE8">
+                    EXERCISE 8
+                </button>
+
+                <div class="modal fade" id="EXERCISE8" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="row text-light bg-dark">
+                                <h2>EXERCISE 8 </h2>
+                            </div>
+                            <div class="modal-header">
+                                <h5 class="modal-title font-weight-bold" id="exampleModalCenterTitle">
+                                    Write a program that allows user to insert integer then print all numbers between 1
+                                    to that’s number.</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+
+                            <div class="modal-body">
+                                <div class="form-group">
+                                    <label> ENTER ANY NUMBER PLEASE...</label>
+                                    <input id="enterExercise8" class="form-control border-primary">
+                                </div>
+                                <div>
+                                    <h1 id="theResultExercise8"></h1>
+                                </div>
+                                <br>
+                                <button onclick="pressExercise8()" class="btn btn-primary btn-sm hoverbtn">
+                                    Show Result
+                                </button>
+                            </div>
+
+                            <div class="modal-footer">
+                                <input type="reset" class="btn " value="Reset">
+                                <button type="button" class="btn " data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--------- END EXERSICE-8---- -->
+        </div>
+        <!------------ END ROW NUMBER 4-------------->
+
+        <!------------ START ROW NUMBER 5-------------->
+        <div class="row py-2 align-content-around justify-content-around m-auto">
+            <!--------- START EXERSICE-5---- -->
+            <div class=" col-md-3 m-auto ">
+                <button type="button" class="btn btn-bg m-3" data-toggle="modal" data-target="#EXERCISE5">
+                    EXERCISE 5
+                </button>
+
+                <div class="modal fade" id="EXERCISE5" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="row text-light bg-dark">
+                                <h2>EXERCISE 5 </h2>
+                            </div>
+                            <div class="modal-header">
+                                <h5 class="modal-title font-weight-bold" id="exampleModalCenterTitle">Write a program
+                                    that take 3 integer from user then print the max element and the min element. </h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+
+                            <div class="modal-body">
+                                <div class="form-group">
+                                    <label> ENTER ANY NUMBER PLEASE..</label>
+                                    <input id="enterExersice5" class="form-control border-primary">
+                                </div>
+                                <div>
+                                    <h1 id="theResultExercise5"></h1>
+                                </div>
+                                <br>
+                                <button onclick="pressExercise5()" class="btn btn-primary btn-sm hoverbtn">
+                                    Show Result
+                                </button>
+                            </div>
+
+                            <div class="modal-footer">
+                                <input type="reset" class="btn " value="Reset">
+                                <button type="button" class="btn " data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--------- END EXERSICE-5---- -->
+            <!--------- START EXERSICE-6---- -->
+            <div class=" col-md-3 m-auto ">
+                <button type="button" class="btn btn-bg m-3" data-toggle="modal" data-target="#EXERCISE6">
+                    EXERCISE 6
+                </button>
+
+                <div class="modal fade" id="EXERCISE6" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="row text-light bg-dark">
+                                <h2>EXERCISE 6</h2>
+                            </div>
+                            <div class="modal-header">
+                                <h5 class="modal-title font-weight-bold" id="exampleModalCenterTitle">
+                                    Write a program that allows the user to insert integer number then Even or Odd .
+                                </h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+
+                            <div class="modal-body">
+                                <div class="form-group">
+                                    <label> ENTER ANY NUMBER PLEASE...</label>
+                                    <input id="enterExersice6" class="form-control border-primary">
+                                </div>
+                                <div>
+                                    <h1 id="theResultExercise6"></h1>
+                                </div>
+                                <br>
+                                <button onclick="pressExercise6()" class="btn btn-primary btn-sm hoverbtn">
+                                    Show Result
+                                </button>
+                            </div>
+
+                            <div class="modal-footer">
+                                <input type="reset" class="btn " value="Reset">
+                                <button type="button" class="btn " data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--------- END EXERSICE-6---- -->
+            <!--------- START EXERSICE-7---- -->
+            <div class=" col-md-3 m-auto ">
+                <button type="button" class="btn btn-bg m-3" data-toggle="modal" data-target="#EXERCISE7">
+                    EXERCISE 7
+                </button>
+
+                <div class="modal fade" id="EXERCISE7" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="row text-light bg-dark">
+                                <h2>EXERCISE 7</h2>
+                            </div>
+                            <div class="modal-header">
+                                <h5 class="modal-title font-weight-bold" id="exampleModalCenterTitle">
+                                    Write a program that take character from user then if it is vowel chars (a,e,I,o,u)
+                                    then print vowel otherwise print consonant. </h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+
+                            <div class="modal-body">
+                                <div class="form-group">
+                                    <label> ENTER ANY NUMBER PLEASE...</label>
+                                    <input id="enterExercise7" class="form-control border-primary">
+                                </div>
+                                <div>
+                                    <h1 id="theResultExercise7"></h1>
+                                </div>
+                                <br>
+                                <button onclick="pressExercise7()" class="btn btn-primary btn-sm hoverbtn">
+                                    Show Result
+                                </button>
+                            </div>
+
+                            <div class="modal-footer">
+                                <input type="reset" class="btn " value="Reset">
+                                <button type="button" class="btn " data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--------- END EXERSICE-7---- -->
+            <!--------- START EXERSICE-8---- -->
+            <div class=" col-md-3 m-auto ">
+                <button type="button" class="btn btn-bg m-3" data-toggle="modal" data-target="#EXERCISE8">
+                    EXERCISE 8
+                </button>
+
+                <div class="modal fade" id="EXERCISE8" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="row text-light bg-dark">
+                                <h2>EXERCISE 8 </h2>
+                            </div>
+                            <div class="modal-header">
+                                <h5 class="modal-title font-weight-bold" id="exampleModalCenterTitle">
+                                    Write a program that allows user to insert integer then print all numbers between 1
+                                    to that’s number.</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+
+                            <div class="modal-body">
+                                <div class="form-group">
+                                    <label> ENTER ANY NUMBER PLEASE...</label>
+                                    <input id="enterExercise8" class="form-control border-primary">
+                                </div>
+                                <div>
+                                    <h1 id="theResultExercise8"></h1>
+                                </div>
+                                <br>
+                                <button onclick="pressExercise8()" class="btn btn-primary btn-sm hoverbtn">
+                                    Show Result
+                                </button>
+                            </div>
+
+                            <div class="modal-footer">
+                                <input type="reset" class="btn " value="Reset">
+                                <button type="button" class="btn " data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--------- END EXERSICE-8---- -->
+        </div>
+        <!------------ END ROW NUMBER 5-------------->
+
+
+    </section>
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/min.js"></script>
+</body>
+
+</html>

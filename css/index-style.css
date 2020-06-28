@@ -1,0 +1,36 @@
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/overlay-bg.jpg);
+    background-size: cover;
+}
+
+.text-head h1 {
+    color: #2B4970 !important;
+    font-size: 4rem !important;
+    font-weight: 900 !important;
+    padding: 5rem 0rem !important;
+}
+
+.btn-bg {
+    background-color: #BF63AD !important;
+    border: 0.5px;
+    color: white;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.mydiv {
+    overflow: auto;
+}
+
+#theResult {
+    overflow: hidden;
+}
+
+.btn-bg:hover {
+    background-color: #FF84E6 !important;
+    color: #401600 !important;
+    font-size: 1rem;
+
+}
